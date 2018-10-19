@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Electron Hello World</title>
+	<title>Electron Calculator</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css" />
 	<script>
 		window.$ = window.jQuery = require("./jquery-3.1.1.min.js");
@@ -12,9 +12,98 @@
 </head>
 
 <body>
-	<h1>
-		Hello World!!!!!
-	</h1>
+	<div class="ui grid center aligned container">
+		<div class="sixteen wide column right floated" id="displayOutput">
+			<div class="ui segment right aligned">
+				Test
+			</div>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				7
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				8
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				9
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				DEL
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				4
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				5
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				6
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				/
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				1
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				2
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				3
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				*
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				.
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				0
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				=
+			</button>
+		</div>
+		<div class="four wide column">
+			<button class="ui button compact">
+				-
+			</button>
+		</div>
+		<div class="four wide column right floated">
+			<button class="ui button compact">
+				+
+			</button>
+		</div>
+	</div>
 </body>
 <script>
 	require('./renderer.js');
