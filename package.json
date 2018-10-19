@@ -1,12 +1,12 @@
 {
-  "name": "hello-world",
+  "name": "calculator",
   "version": "1.0.0",
-  "description": "A 'Hello World' Electron application",
+  "description": "A Calculator Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "Simon",
+  "author": "Josh",
   "license": "ISC",
   "devDependencies": {
     "electron": "^3.0.4"
